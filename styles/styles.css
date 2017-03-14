@@ -1,0 +1,111 @@
+div.main{
+  width: 80%;
+  padding: 10px 100px 10px 100px;
+}
+div.space{
+  height:  25%;
+}
+div.menu-header{
+  background-color: black;
+  width: auto;
+  height:40px;
+  text-align: left;
+  padding-top: 10px;
+}
+div.menu-header a{
+  margin-right: 10px;
+  padding: 10px;
+  vertical-align: text-bottom;
+  color: #D3D3D3;
+  font-weight: bold;
+  text-decoration: none;
+}
+div.detail{
+  /*background: url('/imgs/index.jpg');*/
+  background: gray;
+  background: -webkit-linear-gradient(left top, gray, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, gray, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, gray, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, gray, white); /* Standard syntax */
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+div.home{
+  vertical-align: text-bottom;
+  text-align: center;
+  padding-top: 100px;
+}
+div.home span{
+  left: 50%;
+  top: 60%;
+  display: block;
+}
+span.italic{
+  font-size: 30px;
+  font-style: italic;
+}
+span.bold{
+  font-weight: 900;
+  font-size: 70px;
+}
+span.small{
+  font-size: 15px;
+  font-style: italic;
+  color: red;
+}
+div.menu{
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+/*  overflow: scroll;*/
+}
+h2.menuHeader{
+  font-size: 30px;
+  font-style: italic;
+}
+div.itemHeader{
+  text-align: center;
+}
+span.itemName{
+  color: #3a3fae;
+}
+div.menuCategories li{
+  list-style: none;
+}
+div.menuCategories li a{
+  text-decoration: none;
+  color: black;
+}
+div.menuCategories li a:hover{
+  font-weight: bold;
+  border: solid 1px black;
+}
+div.itemDetails{
+  width: 50%;
+  overflow: scroll;
+}
+table.itemDetails{
+  overflow: scroll;
+  margin: 5px;
+  color: #4d3a3a;
+  width: 100%;
+}
+table.itemDetails tr:nth-child(even) {
+    background-color: #7B7373;
+}
+table.itemDetails thead, tbody { display: block; }
+
+table.itemDetails tbody {
+    height: 390px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+table.itemDetails tbody td {
+  white-space:nowrap;
+}
+table.itemDetails tbody td:last-child {
+  width :100%;
+  white-space: normal;
+}
